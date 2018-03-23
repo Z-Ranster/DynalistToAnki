@@ -1,0 +1,22 @@
+Main
+- - load file
+- - create folder on desktop named the prefix of the loaded file
+- - look through loaded file for #ankiBound
+- - - create object to store card data
+- - - - read and store tags
+- -  - - read and store question
+- - - - - update latex if any present
+- -  - -  - log any issues
+- - - - read and store answer
+- -  - -  - update latex if any present
+- - - - - log any issues
+- -  - - read and store memory link
+- - -  - - update latex if any present
+- - - - - log any issues
+- - - - read and store context
+- -  - -  - update latex if any present
+- - - - - log any issues
+- - - create tag_1.csv file
+- -  - - write tags to file
+- - - - write card data to file
+- -  - shutdown program
